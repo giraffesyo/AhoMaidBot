@@ -2,12 +2,15 @@
   "name": "AhoMaidBot",
   "version": "0.1.0",
   "description": "Maid bot for Aho Channel Discord",
-  "main": "bot.js",
+  "main": "bot.mjs",
   "repository": "git@github.com:giraffesyo/AhoMaidBot.git",
   "author": "Michael McQuade <michael@giraffesyo.io>",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.3.2",
     "dotenv": "^6.0.0"
+  },
+  "scripts": {
+    "start": "node --experimental-modules bot.mjs"
   }
 }
