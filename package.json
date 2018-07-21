@@ -9,14 +9,5 @@
   "dependencies": {
     "discord.js": "^11.3.2",
     "dotenv": "^6.0.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "rimraf": "^2.6.2"
-  },
-  "scripts": {
-    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules",
-    "start": "yarn build && node dist/bot.js"
   }
 }
