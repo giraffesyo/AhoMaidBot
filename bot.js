@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const PRODUCTION = process.env.NODE_ENV === 'production'
 if (!PRODUCTION) {
   require('dotenv').config()
